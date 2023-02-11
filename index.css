@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded&display=swap");
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+  font-family: "Unbounded", cursive;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+  gap: 10px;
+}
+input {
+  border-radius: 5px;
+  width: 300px;
+  height: 60px;
+  border: 3px solid black;
+  font-size: 35px;
+}
+#add {
+  background-color: rgb(0, 255, 0);
+  font-size: 35px;
+  width: 150px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#clear {
+  background-color: rgb(255, 0, 0);
+  font-size: 35px;
+  width: 150px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  margin-top: 7vh;
+  flex-direction: column;
+  list-style: none;
+  gap: 50px;
+}
+.list-background {
+  min-width: 450px;
+  min-height: 70px;
+  background-color: rgb(37, 37, 37);
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px 0px rgb(0, 0, 0);
+}
+ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  color: white;
+}
